@@ -28,6 +28,9 @@ kotlin {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
             implementation(libs.ktmidi.jvm.desktop)
+            // IDK if these are needed, but they don't fix it:
+            implementation(libs.libremidi.javacpp.platform)
+            implementation(libs.rtmidi.javacpp.platform)
         }
     }
 }

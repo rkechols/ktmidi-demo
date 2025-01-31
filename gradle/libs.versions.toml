@@ -5,6 +5,8 @@ androidx-lifecycle = "2.8.4"
 kotlinx-coroutines = "1.10.1"
 javacpp = "1.5.10"
 ktmidi = "0.10.1"
+libremidi-javacpp = "0.1.2"
+rtmidi-javacpp = "0.1.5"
 
 [plugins]
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
@@ -18,3 +20,5 @@ androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle
 kotlinx-coroutines-swing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 ktmidi = { module = "dev.atsushieno:ktmidi", version.ref = "ktmidi" }
 ktmidi-jvm-desktop = { module = "dev.atsushieno:ktmidi-jvm-desktop", version.ref = "ktmidi" }
+libremidi-javacpp-platform = { module = "dev.atsushieno:libremidi-javacpp-platform", version.ref = "libremidi-javacpp" }
+rtmidi-javacpp-platform = { module = "dev.atsushieno:rtmidi-javacpp-platform", version.ref = "rtmidi-javacpp" }
