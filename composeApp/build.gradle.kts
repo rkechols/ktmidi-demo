@@ -1,3 +1,4 @@
+import org.bytedeco.javacpp.Loader
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
@@ -6,6 +7,8 @@ plugins {
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.gradle.javacpp.platform)
 }
+
+println("platform = ${Loader.Detector.getPlatform()}")
 
 kotlin {
     jvm("desktop")

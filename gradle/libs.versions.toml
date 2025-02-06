@@ -5,7 +5,7 @@ androidx-lifecycle = "2.8.4"
 kotlinx-coroutines = "1.10.1"
 javacpp = "1.5.10"
 ktmidi = "0.10.1"
-libremidi-javacpp = "0.1.2"
+libremidi-javacpp = "0.1.4"
 rtmidi-javacpp = "0.1.5"
 
 [plugins]
